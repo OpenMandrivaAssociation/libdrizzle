@@ -5,7 +5,7 @@
 Summary:	Drizzle Client & Protocol Library
 Name:		libdrizzle
 Version:	0.3
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	BSD
 Group:		System/Libraries
 URL:		https://launchpad.net/libdrizzle
@@ -34,6 +34,7 @@ communication (like proxies). Other language interfaces (PHP extensions, SWIG,
 %package -n	%{develname}
 Summary:	Drizzle Client & Protocol Library - Header files
 Group:		Development/C
+Requires:	%{libname} >= %{version}
 Provides:	%{name}-devel = %{version}
 
 %description -n	%{develname}
