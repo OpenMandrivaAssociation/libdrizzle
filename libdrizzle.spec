@@ -4,8 +4,8 @@
 
 Summary:	Drizzle Client & Protocol Library
 Name:		libdrizzle
-Version:	0.3
-Release:	%mkrel 3
+Version:	0.4
+Release:	%mkrel 1
 License:	BSD
 Group:		System/Libraries
 URL:		https://launchpad.net/libdrizzle
