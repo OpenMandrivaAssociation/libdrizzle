@@ -4,7 +4,7 @@
 
 Summary:	Drizzle Client & Protocol Library
 Name:		libdrizzle
-Version:	0.6
+Version:	0.7
 Release:	%mkrel 1
 License:	BSD
 Group:		System/Libraries
